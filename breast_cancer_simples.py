@@ -4,7 +4,7 @@ Created on Tue Mar 22 10:25:22 2022
 
 @author: Henrique
 """
-
+## Data base -> https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29##
 import pandas as pd 
 
 previsores = pd.read_csv('./entradas_breast.csv')
