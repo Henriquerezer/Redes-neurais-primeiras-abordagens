@@ -36,7 +36,7 @@ def criarRede():
 
     opt = keras.optimizers.Adam(learning_rate=0.001, decay = 0.0001, clipvalue = 0.5)
 
-    classificador.compile(opt, loss = 'binary_crossentropy',
+    classificador.compile(optimizer = opt, loss = 'binary_crossentropy',
                           metrics = ['binary_accuracy'])
     return classificador 
 
