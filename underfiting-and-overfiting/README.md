@@ -1,0 +1,1 @@
+Quando temos um alto erro no treinamento com valor próximo ao erro na validação, temos um clássico problema de underfitting, que como já vimos, é um problema de alto bias. Quando temos um baixo erro no treinamento e alto erro na validação, temos um clássico problema de overfitting, que é um problema de alta variância.
