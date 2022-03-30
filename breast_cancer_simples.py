@@ -26,7 +26,7 @@ classificador.add(Dense(units = 1, activation = 'sigmoid',))
 
 opt = keras.optimizers.Adam(learning_rate=0.01, decay = 0.0001, clipvalue = 0.5)
 
-classificador.compile(opt, loss = 'binary_crossentropy',
+classificador.compile(optimizer = opt, loss = 'binary_crossentropy',
                       metrics = ['binary_accuracy'])
 
 classificador.fit(previsores_treinamento, classe_treinamento,
