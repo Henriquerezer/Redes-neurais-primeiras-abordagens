@@ -3,3 +3,7 @@ Quando temos um alto erro no treinamento com valor próximo ao erro na validaç�
 <div align="center">
 <img src="https://user-images.githubusercontent.com/87787728/160941786-4bcc42e4-490c-4bbb-b177-3dbad4d2930d.png" width="550px" />
 </div>
+
+Foi utilziada a ferramenta Dropout do KERAS, é possível encontrar mais informações no link abaixo:
+
+https://keras.io/api/layers/regularization_layers/dropout/
