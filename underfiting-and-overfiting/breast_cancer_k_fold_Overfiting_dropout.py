@@ -32,7 +32,7 @@ def criarRede():
     classificador.add(Dense(units = 16, activation= 'relu',
                             kernel_initializer= 'random_uniform'))
     classificador.add(Dropout(0.2))# Nesta linha foi implementado o DROPOUT, está ferramenta irá zerar uma taxa de neurônios de entradas ( Zerar seus valores), no caso foi escolhico que 0,2 (20%) dos neurônios deveriam ser zerados aleatóriamente na segunda camada.
-    classificador.add(Dense(units = 1, activation = 'sigmoid',)) #terceira camada
+    classificador.add(Dense(units = 1, activation = 'sigmoid')) #terceira camada
 
     opt = keras.optimizers.Adam(learning_rate=0.001, decay = 0.0001, clipvalue = 0.5)
 
