@@ -22,7 +22,7 @@ classificador.add(Dense(units = 16, activation= 'relu',
                         kernel_initializer= 'random_uniform', input_dim= 30))
 classificador.add(Dense(units = 16, activation= 'relu',
                         kernel_initializer= 'random_uniform'))
-classificador.add(Dense(units = 1, activation = 'sigmoid',))
+classificador.add(Dense(units = 1, activation = 'sigmoid'))
 
 opt = keras.optimizers.Adam(learning_rate=0.01, decay = 0.0001, clipvalue = 0.5)
 
