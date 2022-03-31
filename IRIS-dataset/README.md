@@ -1,3 +1,8 @@
+<div align="center">
+<img src="https://user-images.githubusercontent.com/87787728/161116105-eaf339cd-9a41-45cf-a774-75e4a730fb78.png" width="700px" />
+</div>
+
+
 Esta é talvez a base de dados mais conhecida encontrada na literatura de reconhecimento de padrões. O artigo de Fisher é um clássico na área e é referenciado com frequência até hoje. (Veja Duda & Hart, por exemplo.) O conjunto de dados contém 3 classes de 50 instâncias cada, onde cada classe se refere a um tipo de planta de íris. Uma classe é linearmente separável das outras 2; os últimos NÃO são linearmente separáveis uns dos outros.
 Predicted attribute: class of iris plant.
 
@@ -17,6 +22,3 @@ Attribute Information:
 - Iris Versicolour
 - Iris Virginica
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/87787728/161116105-eaf339cd-9a41-45cf-a774-75e4a730fb78.png" width="700px" />
-</div>
