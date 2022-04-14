@@ -73,6 +73,14 @@ Diferença entre as médias
 
 diferença = preco_real_teste.mean() - previsoes.mean()
 
+import matplotlib.pyplot as plt
+plt.plot(preco_real_teste, color = 'red', label = 'Preço real')
+plt.plot(previsoes, color = 'blue', label = 'Previsões')
+plt.title('Previsão preço das ações')
+plt.xlabel('Tempo')
+plt.ylabel('Valor Yahoo')
+plt.legend()
+plt.show()
 
 '''
 NESTE EXERCICIO, UTILIZAMOS A MESMA ESTRUTURA DE REDE NEURAL RECORRENTE, PORÉM UTILIZAMOS A BASE_TESTE, para fazer a previsão 
