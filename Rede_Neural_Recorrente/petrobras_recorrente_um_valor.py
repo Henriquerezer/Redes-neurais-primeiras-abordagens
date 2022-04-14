@@ -47,15 +47,6 @@ regressor.compile(optimizer = 'rmsprop', loss = 'mean_squared_error',
                   metrics = ['mean_absolute_error'])
 regressor.fit(previsores, preco_real, epochs = 100, batch_size = 32)
 
-
-
-
-
-
-
-
-
-
-
-
-
+'''
+LEMBRANDO QUE ESTAS MÉTRICAS, SÃO REFERENTES AO TESTE E VALIDAÇÃO NA MESMA BASE DE DADOS 
+'''
